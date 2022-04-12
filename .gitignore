@@ -37,4 +37,4 @@ out/
 .vscode/
 
 ### prevent pushing private resources ###
-!**/src/main/resources/application-prod
+!**/src/main/resources/application-prod.yml

@@ -1,0 +1,16 @@
+mysql:
+  host: localhost
+  port: 3306
+  id: root
+  password:
+
+spring:
+  r2dbc:
+    url: r2dbc:mysql://localhost:3306/stduy
+    username: root
+    password:
+    pool:
+      initial-size: 10
+      max-size: 100
+      max-idle-time: 30m
+      validation-query: SHOW DATABASES
